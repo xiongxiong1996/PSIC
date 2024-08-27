@@ -4,13 +4,13 @@
 
 <div align="center">
 
-# 24-hour Lane Line Detection using Image Enhancement and Collaboration
+# 24-hour Lane Line Detection via Parallel Scene Information Collaboration
 
 </div>
 
 
 
-Pytorch implementation of the paper "[24-hour Lane Line Detection using Image Enhancement and Collaboration]()" (The paper is under review).
+Pytorch implementation of the paper "[24-hour Lane Line Detection using via Parallel Scene Information Collaboration]()" (The paper is under review).
 
 ## Introduction
 ![Arch](.image/arch.png)
@@ -217,7 +217,7 @@ State-of-the-art results on Night TuSimple. Results was computed using the offic
 | CurveLane  | ResNet34  |   90.47   |   89.43   |   6.00   |   13.8   |
 |   CLRNet   | ResNet18  |   90.2    |   87.09   |   4.31   |   16.5   |
 |   CLRNet   | ResNet34  |   90.45   |   86.03   |   3.00   |  17.48   |
-|   CLRNet   | ResNet101 |           |           |          |          |
+|   CLRNet   | ResNet101 |   87.55   |   82.14   |   4.24   |  23.00   |
 |  FLAMNet   | ResNet18  |   89.88   |   86.72   |   4.33   |  17.21   |
 |  FLAMNet   | ResNet34  |   86.36   |   79.85   |   4.46   |  25.72   |
 | PSIC(ours) | ResNet18  |   96.33   |   94.65   |   1.98   |   5.50   |
