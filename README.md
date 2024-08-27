@@ -8,7 +8,7 @@
 
 </div>
 
-
+<!--ts-->
 
 Pytorch implementation of the paper "[24-hour Lane Line Detection using via Parallel Scene Information Collaboration]()" (The paper is under review).
 
@@ -122,7 +122,7 @@ python tools/generate_seg_tusimple.py --root $TUSIMPLEROOT
 
 ####  Night Tusimple
 
-Download [Night Tusimple](https://pan.baidu.com/s/1arSCB1IHg7zwgG5Ac5iL7w?pwd=3rjb ) on Baidu Netdisk. Then extract them to `$NIGHTTUSIMPLEROOT`. Create link to `data` directory.
+Download [Night Tusimple](https://pan.baidu.com/s/1uRGwpcTiiv0NMAYtDUhlGQ?pwd=sqii) on Baidu Netdisk. Then extract them to `$NIGHTTUSIMPLEROOT`. Create link to `data` directory.
 
 ```shell
 cd $PSIC_ROOT
@@ -272,14 +272,15 @@ If our paper and code are beneficial to your work, please consider citing:
 ```
 
 ## Acknowledgement
-<!--ts-->
-
 * [pytorch/vision](https://github.com/pytorch/vision)
 * [junyanz/CycleGAN](https://github.com/junyanz/CycleGAN)
 * [LCAD-UFES/publications-arruda-ijcnn-2019](https://github.com/LCAD-UFES/publications-arruda-ijcnn-2019)
 * [Turoad/CLRNet](https://github.com/Turoad/CLRNet)
+* [harryhan618/SCNN_Pytorch](https://github.com/harryhan618/SCNN_Pytorch)
 * [ZJULearning/resa](https://github.com/ZJULearning/resa)
 * [cfzd/Ultra-Fast-Lane-Detection](https://github.com/cfzd/Ultra-Fast-Lane-Detection)
 * [aliyun/conditional-lane-detection](https://github.com/aliyun/conditional-lane-detection)
 * [SoulmateB/CurveLanes](https://github.com/SoulmateB/CurveLanes)
-* <!--te-->
+* [RanHao-cq/FLAMNet](https://github.com/RanHao-cq/FLAMNet)
+
+<!--te-->
