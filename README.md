@@ -81,7 +81,7 @@ $CULANEROOT/data/CULane
 
 #### CULane Day
 
-Download [CULane](https://xingangpan.github.io/projects/CULane.html). Then extract them to `$CULANEDAYROOT`. We filter CULane's training set, select only the daytime data, modify the `$CULANEDAYROOT/list/train_gt.txt`, delete the nighttime index. The Modified [train_gt.txt](https://xingangpan.github.io/projects/CULane.html) can be download directly. Create link to `data` directory. 
+Download [CULane](https://xingangpan.github.io/projects/CULane.html). Then extract them to `$CULANEDAYROOT`. We filter CULane's training set, select only the daytime data, modify the `$CULANEDAYROOT/list/train_gt.txt`, delete the nighttime index. The Modified [train_gt.txt](PSIC/tools) can be find on PSIC/tools. Create link to `data` directory. 
 
 ```Shell
 cd $PSIC_ROOT
@@ -122,7 +122,7 @@ python tools/generate_seg_tusimple.py --root $TUSIMPLEROOT
 
 ####  Night Tusimple
 
-Download [Night Tusimple](resa/data). Then extract them to `$NIGHTTUSIMPLEROOT`. Create link to `data` directory.
+Download [Night Tusimple](https://pan.baidu.com/s/1arSCB1IHg7zwgG5Ac5iL7w?pwd=3rjb ) on Baidu Netdisk. Then extract them to `$NIGHTTUSIMPLEROOT`. Create link to `data` directory.
 
 ```shell
 cd $PSIC_ROOT
@@ -180,26 +180,26 @@ Visualization results of UFLD, RESA, CLRNet and PSIC on Tusimple and Night Tusim
 
 State-of-the-art results on TuSimple. Results was computed using the official source code. Best results are in bold.
 
-|   Method   | Backbone  |    F1     |  ACC  |    FP    |    FN    |
-| :--------: | :-------: | :-------: | :---: | :------: | :------: |
-|    SCNN    |   VGG16   |   95.97   | 96.53 |   6.17   | **1.80** |
-|    UFLD    | ResNet18  |   87.58   | 95.82 |  19.05   |   3.92   |
-|   UFLDv2   | ResNet18  |   96.16   | 95.65 |   3.06   |   4.61   |
-|   UFLDv2   | ResNet34  |   96.22   | 95.56 |   3.18   |   4.37   |
-|    RESA    | ResNet34  |   96.93   | 96.82 |   3.63   |   2.48   |
-|  CondLane  | ResNet18  |   97.01   | 95.48 |   2.18   |   3.80   |
-|  CondLane  | ResNet34  |   96.98   | 95.37 |   2.20   |   3.82   |
-|  CondLane  | ResNet101 |   97.24   | 96.54 |   2.01   |   3.50   |
-| CurveLane  | ResNet18  |   95.02   | 95.41 |   5.32   |   4.60   |
-| CurveLane  | ResNet34  |   95.47   | 95.65 |   5.13   |   3.87   |
-|   CLRNet   | ResNet18  |   97.89   | 96.82 |   2.28   |   1.92   |
-|   CLRNet   | ResNet34  |   97.82   | 96.87 |   2.27   |   2.08   |
-|   CLRNet   | ResNet101 |   97.62   | 96.83 |   2.37   |   2.38   |
-|  FLAMNet   | ResNet18  |   97.83   | 96.58 |   2.85   |   1.96   |
-|  FLAMNet   | ResNet34  |   97.92   | 96.94 |   2.43   |   1.89   |
-| PSIC(ours) | ResNet18  | **98.04** | 96.83 | **1.80** |   2.12   |
-| PSIC(ours) | ResNet34  |   97.87   | 96.80 |   1.87   |   2.39   |
-| PSIC(ours) | ResNet101 |   97.51   | 96.57 |   1.85   |   3.16   |
+|   Method   | Backbone  |    F1     |    ACC    |    FP    |    FN    |
+| :--------: | :-------: | :-------: | :-------: | :------: | :------: |
+|    SCNN    |   VGG16   |   95.97   |   96.53   |   6.17   | **1.80** |
+|    UFLD    | ResNet18  |   87.58   |   95.82   |  19.05   |   3.92   |
+|   UFLDv2   | ResNet18  |   96.16   |   95.65   |   3.06   |   4.61   |
+|   UFLDv2   | ResNet34  |   96.22   |   95.56   |   3.18   |   4.37   |
+|    RESA    | ResNet34  |   96.93   |   96.82   |   3.63   |   2.48   |
+|  CondLane  | ResNet18  |   97.01   |   95.48   |   2.18   |   3.80   |
+|  CondLane  | ResNet34  |   96.98   |   95.37   |   2.20   |   3.82   |
+|  CondLane  | ResNet101 |   97.24   |   96.54   |   2.01   |   3.50   |
+| CurveLane  | ResNet18  |   95.02   |   95.41   |   5.32   |   4.60   |
+| CurveLane  | ResNet34  |   95.47   |   95.65   |   5.13   |   3.87   |
+|   CLRNet   | ResNet18  |   97.89   |   96.82   |   2.28   |   1.92   |
+|   CLRNet   | ResNet34  |   97.82   |   96.87   |   2.27   |   2.08   |
+|   CLRNet   | ResNet101 |   97.62   |   96.83   |   2.37   |   2.38   |
+|  FLAMNet   | ResNet18  |   97.83   |   96.58   |   2.85   |   1.96   |
+|  FLAMNet   | ResNet34  |   97.92   | **96.94** |   2.43   |   1.89   |
+| PSIC(ours) | ResNet18  | **98.04** |   96.83   | **1.80** |   2.12   |
+| PSIC(ours) | ResNet34  |   97.87   |   96.80   |   1.87   |   2.39   |
+| PSIC(ours) | ResNet101 |   97.51   |   96.57   |   1.85   |   3.16   |
 
 ### Night Tusimple 
 
@@ -261,7 +261,7 @@ Comparison with state-of-the-art results on CULane dataset with IoU threshold = 
 
 If our paper and code are beneficial to your work, please consider citing:
 ```
-@InProceedings{Zheng_2022_CVPR,
+@InProceedings{**,
     author    = {**,
     title     = {**,
     booktitle = {**,
