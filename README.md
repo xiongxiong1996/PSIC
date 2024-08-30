@@ -122,7 +122,7 @@ python tools/generate_seg_tusimple.py --root $TUSIMPLEROOT
 
 ####  Night Tusimple
 
-Download [Night Tusimple](https://pan.baidu.com/s/1uRGwpcTiiv0NMAYtDUhlGQ?pwd=sqii) on Baidu Netdisk. Then extract them to `$NIGHTTUSIMPLEROOT`. Create link to `data` directory.
+Download Night Tusimple on [Baidu Netdisk](https://pan.baidu.com/s/1uRGwpcTiiv0NMAYtDUhlGQ?pwd=sqii) or [Google Drive](https://drive.google.com/file/d/1l5dAQQFhiQBH1J5DLLHcCw3uMsVL80oP/view?usp=sharing). Then extract them to `$NIGHTTUSIMPLEROOT`. Create link to `data` directory.
 
 ```shell
 cd $PSIC_ROOT
