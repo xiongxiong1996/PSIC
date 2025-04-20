@@ -86,7 +86,7 @@ Download [CULane](https://xingangpan.github.io/projects/CULane.html). Then extra
 ```Shell
 cd $PSIC_ROOT
 mkdir -p data
-ln -s $CULANEDAYROOT data/CULane
+ln -s $CULANEDAYROOT data/CULane_day
 ```
 
 For CULane_day, the structure is the same as CULane.
