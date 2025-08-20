@@ -10,7 +10,7 @@
 
 <!--ts-->
 
-Pytorch implementation of the paper "[24-hour Lane Line Detection using via Parallel Scene Information Collaboration]()" (The paper is under review).
+Pytorch implementation of the paper "[24-hour Lane Line Detection using via Parallel Scene Information Collaboration]()" (The paper has been accepted by IEEE Transactions on Intelligent Transportation Systems (T-ITS)).
 
 ## Introduction
 ![Arch](.image/arch.png)
