@@ -261,14 +261,17 @@ Comparison with state-of-the-art results on CULane dataset with IoU threshold = 
 
 If our paper and code are beneficial to your work, please consider citing:
 ```
-@InProceedings{**,
-    author    = {**,
-    title     = {**,
-    booktitle = {**,
-    month     = {**,
-    year      = {**,
-    pages     = {**
-**
+@ARTICLE{11144516,
+  author   = {Duan, Shaohua and Zhang, Chunjie and Zheng, Xiaolong and Wang, Yutong and Zhang, Hui and Wang, Fei-Yue},
+  journal  = {IEEE Transactions on Intelligent Transportation Systems}, 
+  title    = {24-h Lane Line Detection via Parallel Scene Information Collaboration}, 
+  year     = {2025},
+  volume   = {},
+  number   = {},
+  pages    = {1-14},
+  keywords = {Lane detection; Accuracy; Data models; Collaboration; Training; Feature extraction; Computational modeling; Shape; Robustness; Polynomials; Lane line detection; parallel system; information collaboration},
+  doi      = {10.1109/TITS.2025.3601380}
+}
 ```
 
 ## Acknowledgement
