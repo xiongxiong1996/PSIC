@@ -10,7 +10,7 @@
 
 <!--ts-->
 
-Pytorch implementation of the paper "[24-hour Lane Line Detection using via Parallel Scene Information Collaboration]()" (The paper is under review).
+Pytorch implementation of the paper "[24-hour Lane Line Detection using via Parallel Scene Information Collaboration]()" (The paper has been accepted by IEEE Transactions on Intelligent Transportation Systems (T-ITS)).
 
 ## Introduction
 ![Arch](.image/arch.png)
@@ -248,7 +248,7 @@ Comparison with state-of-the-art results on CULane dataset with IoU threshold = 
 |     Clrnet      | ResNet34  |    93.49     |    78.06     |    74.57     |    79.92     |    54.01     |   90.59    |    72.77     |    1216    |    75.02     |    79.73     |
 |     Clrnet      | ResNet101 |  **93.85**   |    78.78     |    72.49     |    82.33     | <u>54.50</u> |   89.79    |  **75.57**   |    1262    |    75.51     |    80.13     |
 |     Clrnet      |   DLA34   |    93.73     |  **79.59**   |  **75.30**   | <u>82.51</u> |  **54.58**   |   90.62    |    74.13     |    1155    |    75.37     | <u>80.47</u> |
-| PSIC(only day)  | ResNet18  |    93.34     |    77.91     |     74.5     |    78.39     |     51.9     |   90.05    |    69.14     |    990     |    75.13     |    79.55     |
+| PSIC(only day)  | ResNet18  |    93.34     |    77.90     |     74.5     |    78.39     |     51.9     |   90.05    |    69.14     |    990     |    75.12     |    79.55     |
 | PSIC(only day)  | ResNet34  |    93.55     |    78.49     |    74.01     |    80.88     |    52.35     | **90.91**  |    69.11     |    987     |    75.63     |    79.99     |
 | PSIC(only day)  | ResNet101 |    93.58     |    78.99     |    72.98     |    81.79     |    54.20     |   90.62    |    71.57     |    992     | <u>75.77</u> |    80.37     |
 | PSIC(only day)  |   DLA34   | <u>93.82</u> |    78.89     | <u>75.29</u> |    79.25     |    53.16     |   90.51    |    72.30     |    1043    |    75.50     |    80.21     |
@@ -261,14 +261,17 @@ Comparison with state-of-the-art results on CULane dataset with IoU threshold = 
 
 If our paper and code are beneficial to your work, please consider citing:
 ```
-@InProceedings{**,
-    author    = {**,
-    title     = {**,
-    booktitle = {**,
-    month     = {**,
-    year      = {**,
-    pages     = {**
-**
+@ARTICLE{11144516,
+  author   = {Duan, Shaohua and Zhang, Chunjie and Zheng, Xiaolong and Wang, Yutong and Zhang, Hui and Wang, Fei-Yue},
+  journal  = {IEEE Transactions on Intelligent Transportation Systems}, 
+  title    = {24-h Lane Line Detection via Parallel Scene Information Collaboration}, 
+  year     = {2025},
+  volume   = {},
+  number   = {},
+  pages    = {1-14},
+  keywords = {Lane detection; Accuracy; Data models; Collaboration; Training; Feature extraction; Computational modeling; Shape; Robustness; Polynomials; Lane line detection; parallel system; information collaboration},
+  doi      = {10.1109/TITS.2025.3601380}
+}
 ```
 
 ## Acknowledgement
